@@ -10,5 +10,5 @@
 // x = 15;
 // let sum = x + y;
 // console.log("The sum of x and y is: " + sum);
-const PI = 3.14;
-console.log("The value of PI is: " + PI);
+// const PI = 3.14;
+// console.log("The value of PI is: " + PI);
