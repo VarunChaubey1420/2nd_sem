@@ -1,0 +1,14 @@
+// console.log("Hello, World!");
+// var a = 10;
+// var a = 15;
+// console.log("The value of a is: " + a);
+// var b = 20;
+// var sum = a + b;
+// console.log("The sum of a and b is: " + sum);
+// let x = 5;
+// let y = 10;
+// x = 15;
+// let sum = x + y;
+// console.log("The sum of x and y is: " + sum);
+const PI = 3.14;
+console.log("The value of PI is: " + PI);
