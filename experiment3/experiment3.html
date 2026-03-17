@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="Main">
+
+<h2>Student Marks Management</h2>
+
+<input type="text" id="name" placeholder="Student Name"><br>
+<input type="text" id="roll" placeholder="Roll Number"><br>
+<input type="number" id="math" placeholder="Math Marks"><br>
+<input type="number" id="science" placeholder="Science Marks"><br>
+<input type="number" id="english" placeholder="English Marks"><br><br>
+
+<button onclick="addStudent()">Add Student</button>
+<button onclick="displayStudents()">Display Students</button>
+<button onclick="calculateTotal()">Total Marks</button><br><br>
+<button onclick="calculateAverage()">Average Marks</button>
+<button onclick="highScorers()">Average > 80</button>
+<button onclick="failedStudents()">Failed Students</button><br><br>
+<button onclick="countStudents()">Total Students</button>
+
+<div id="output" class="card">
+<p>No Students Added Yet</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
